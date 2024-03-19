@@ -1,0 +1,35 @@
+print("---SIMPLE CALCULATOR---")
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
+print("5.Modulus")
+print("6.Exponentiation")
+print("7.Floor Division")
+num1=int(input("Enter the 1st value"))
+num2=int(input("Enter the 2nd value"))
+while True:
+    choice=(input("Enter your choice"))
+    if (choice=='1'):
+        Add=num1+num2
+        print("Addition of given number",Add)
+    elif (choice=='2'):
+        Sub=num1-num2
+        print("Subtraction of given number",Sub)
+    elif (choice=='3'):
+        MUl=num1*num2
+        print("Multipilication of given number",Mul)
+    elif (choice=='4'):
+        Div=num1/num2
+        print("Division of given number",Div)
+    elif (choice=='5'):
+        Mod=num1%num2
+        print("Modulus of given number",Mod)
+    elif (choice=='6'):
+        Exp=num1**num2
+        print("Exponentiation of given number",Exp)
+    elif (choice=='7'):
+        fld=num1//num2
+        print("Flood division of given number",fld)
+    else:
+        print("Invalid choice")
